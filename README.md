@@ -6,6 +6,8 @@ Para ejecutarlo simplemente utiliza
 $ make
 $ ./Matrix
 ```
+Se creará un archivo llamado `output.txt` en la dirección de ejecución que contendrá todos los tiempos de ejecución de cada una de las iteraciones.
+
 Para editar el archivo de salida, los tamaños de las matrices o el número de iteraciones, solo hay que editar las variables:
 ```c++
 int main() {
@@ -16,4 +18,4 @@ int main() {
   int iterations = 50;  // << Número de iteraciones
 ```
 
-Se creará un archivo llamado `output.txt` en la dirección de ejecución que contendrá todos los tiempos de ejecución de cada una de las iteraciones
+
